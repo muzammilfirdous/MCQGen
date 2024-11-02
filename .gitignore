@@ -1,6 +1,6 @@
 # Ignore the environment folder
 env/
-
+.env
 # Python bytecode
 __pycache__/
 *.py[cod]
