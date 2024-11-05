@@ -12,7 +12,7 @@ from src.mcqgenerator.logger import logging
 
 #Loading json files
 
-with open(r'C:\Users\munnu\OneDrive\Documents\GenAI\MCQGen\Response.json', 'r') as file:
+with open(r'Response.json', 'r') as file:
     content = file.read()  # Read the file content as a string
     RESPONSE_JSON = json.loads(content)  # Parse the string into a JSON object
 
